@@ -16,8 +16,49 @@
             </nav>
     </header>
     <main>
-        <form>
-
+        <form action="#" method="get">
+            <fieldset>
+                <legend><b>Si quieres contactarme puedes rellenar este pequeño formulario</b></legend>
+                    <table>
+                        <tr>
+                            <td><label for="nombre"> Tu nombre o apodo: </label></td>
+                            <td><input type="text" id="nombre" name="user_name" tabindex="1" placeholder="Dime tu nombre"></td>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <tr>
+                            <td><label for="correo">¿Cuál es tu email para que pueda contactarte?</label></td>
+                            <td><input type="email" id="correo" name="correo" tabindex="2"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="telefono">Puedes darme tu número de teléfono para que te contacte.</label></td>
+                            <td><input type="tel" id="telefono" name="telefono" tabindex="3"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="motivo">¿Cuál es el motivo por el que buscas contactar conmigo?</label></td>
+                            <td><select id="motivo" tabindex="4">
+                                <label for="motivo"></label>
+                                <option value="">-- Seleccionalo --</option>
+                                <option value="trabajo">Ofrecerme trabajo</option>
+                                <option value="proyecto">Trabajar en un proyecto</option>
+                                <option value="academicos">Interéses academicos</option>
+                                <option value="personales">Interéses personales</option>
+                                <option value="otros">Otros</option>
+                            </select></td>
+                        </tr>  
+                        <tr>
+                            <td><label for="interes">¿Te ha parecido interesante la información de mi página?</label></td>
+                            <td><input type="radio" id="interes" name="interes" value="si"tabindex="5"> Sí
+                            <input type="radio" id="interes" name="interes" value="no" tabindex="6"> No
+                            <input type="radio" id="interes" name="interes" value="igual"tabindex="7"> Me da igual</td>
+                        </tr>
+                        <tr>
+                            <td><label for="sugerencia">Hazme alguna sugerencia</label></td>
+                            <td><textarea id="sugerencia" tabindex="8" rows="4" cols="50" placeholder="Escribe tu sugerencia"></textarea></td>
+                        </tr>             
+                    </table>
+                </fieldset><br><br>
+                <button type="submit">Enviar</button>
         </form>
     </main>
 </body>
