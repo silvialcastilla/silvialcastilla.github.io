@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    background-color: rgb(255, 211, 218);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.ind-header {
+    background-image: url(../img/img2.jpg);
+    height: 800px;
+    width: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    margin: auto;
+    display: table;
+}
+
+.ind-header-name {
+    font-family: 'Dancing Script', cursive;
+    color: rgba(246, 242, 242, 0.938);
+    opacity: 0, 8;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px black, 1px 1px 0 black;
+    text-align: center;
+    font-size: 75px;
+}
+
+.ind-presentation {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    border: 4px solid rgb(250, 250, 250);
+    opacity: 80%;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px black, 1px 1px 0 black;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 12px;
+}
+
+.bio-nav-bar {
+    display: none
+}
+
+h2 {
+    font-family: fantasy;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.bio-body {
+    margin: 15px
+}
+
+.aboutme-div {
+    display: flex;
+}
+
+.aboutme-img {
+    flex-grow: 1;
+    flex-basis: 30%;
+    height: 140px;
+    width: 20%;
+    padding: 10px
+}
+
+.aboutme-p {
+    flex-grow: 2;
+    flex-basis: 70%;
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 20px;
+}
+
+.studies-fsdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.studies-fsimg {
+    flex-grow: 1;
+    flex-basis: 30%;
+    height: 70px;
+    width: 100%;
+}
+
+.studies-fsp {
+    flex-grow: 2;
+    flex-basis: 70%;
+    text-align: justify;
+}
+
+.studies-sdiv {
+    display: flex;
+}
+
+.studies-simg {
+    flex-grow: 1;
+    flex-basis: 40%;
+    height: 200px;
+    width: 10%;
+    padding-top: 30px;
+    padding-left: 10px
+}
+
+.studies-sp {
+    flex-grow: 2;
+    flex-basis: 70%;
+    text-align: justify;
+}
+
+.studies-rrhhdiv {
+    display: flex;
+}
+
+.studies-rrhhimg {
+    flex-grow: 1;
+    flex-basis: 40%;
+    height: 180px;
+    width: 20%;
+    padding-top: 20px
+}
+
+.studies-rrhhp {
+    flex-grow: 2;
+    flex-basis: 60%;
+    text-align: justify;
+}
+
+.knowledge-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.knowledge-img {
+    flex-grow: 1;
+    flex-basis: 30%;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.knowledge-p {
+    flex-grow: 2;
+    flex-basis: 70%;
+    text-align: justify;
+}
+
+.bio-repos {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(235, 88, 215);
+    line-height: 50px;
+    padding: 2%;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.last-phrase {
+    text-align: center;
+}
+
+.footer {
+    width: 99%;
+}
+
+.cont-nav-bar {
+    display: none;
+}
+
+.contact-body {
+    margin: 10px
+}
+
+.form-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+}
+
+.div-input {
+    display: flex;
+    justify-content: space-around
+}
+
+@media (min-width: 768px) {
+    .ind-header {
+        height: 1100px;
+    }
+    .ind-header-name {
+        font-size: 100px;
+        transition: all 3s ease;
+    }
+    .button {
+        font-size: 20px
+    }
+    .bio-nav-bar {
+        display: block;
+        background-color: rgba(226, 178, 186, 0.904);
+        line-height: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+    }
+    .bio-nav-bar-links {
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        list-style: none;
+        padding-left: 15px;
+    }
+    .bio-nav {
+        text-decoration: none;
+    }
+    .aboutme-img {
+        flex-grow: 1;
+        flex-basis: 30%;
+        height: 20%;
+        width: 20%;
+        padding: 10px
+    }
+    .knowledge-img {
+        flex-basis: 20%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .ind-header {
+        height: 1200px;
+    }
+    .ind-header-name {
+        font-size: 150px;
+        transition: all 3s ease;
+    }
+    .button {
+        font-size: 50px
+    }
+}

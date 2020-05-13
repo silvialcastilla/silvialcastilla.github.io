@@ -4,88 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>¿Quién soy?</title>
 </head>
 
-<body>
+<body class="bio-body">
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html"><b>Mi página personal</b></a></li>
-                <li><a href="biografia.html"><b>¿Quién soy?</b></a></li>
-                <li><a href="contacto.html"><b>Contáctame</b></a></li>
+        <nav class="bio-nav-bar">
+            <ul class="bio-nav-bar-links">
+                <li><a href="index.html" class="bio-nav"><b>Mi página personal</b></a></li>
+                <li><a href="biografia.html" class="bio-nav"><b>¿Quién soy?</b></a></li>
+                <li><a href="contacto.html" class="bio-nav"><b>Contáctame</b></a></li>
             </ul>
-            </nav>
+        </nav>
     </header>
     <main>
         <section id="aboutme">
-            <h2>¿QUIÉN SOY?</h2>
-            <img src="#">
-            <p>Soy una persona con interéses de todo tipo por ello me he formado en Desarrollo Web, Sociología y Recursos Humanos. Alguien inconformista e ilusionada que le gusta aprender de todo para aplicarlo a su día a día.<br>
-            Aquí puedes ver distintas secciones sobre mi que pueden ser de tu interés</p>
+            <h2 class="machine">¿QUIÉN SOY?</h2>
+            <div class="aboutme-div">
+                <img src="img/git.png" class="aboutme-img">
+                <p class="aboutme-p">Soy una persona con interéses de todo tipo por ello me he formado en Desarrollo Web, Sociología y Recursos Humanos. Alguien inconformista e ilusionada que le gusta aprender de todo para aplicarlo a su día a día. <br><br> A continuación
+                    podrás conocerme mejor...
+                </p>
+            </div>
         </section>
 
-        <nav>
-            <ul>
-                <li><a href="#studies"><b>Recorrido histórico</b></a></li>
-                <li><a href="#knowledge"><b>Conocimientos técnicos</b></a></li>
-                <li><a href="#interests"><b>Intereses</b></a></li>
-            </ul>
-        </nav>
-
         <section id="studies">
-            <h2>RECORRIDO HISTÓRICO</h2>
-            <p><br>A lo largo de mi vida he ido formándome en distintos ámbitos. Podríamos destacar tres etapas importantes:</p>
+            <h2 class="machine">RECORRIDO HISTÓRICO</h2>
+            <p>A lo largo de mi vida he ido formándome en distintos ámbitos. Podríamos destacar tres etapas importantes:</p>
             <h3>Desarrollo Web Full Stack en The Bridge</h3>
-            <p>Desde pequeña siempre los ordenadores habían sido mi hobbie y después de cursar Sociología y Recursos Humanos, decidí que era el momento de meterme en ese mundo. ¿Por qué no? Siempre me gustó hacer páginas webs de blogs, imágenes, gifs y me ilusionaba enseñarlos.
-            Tomé la decisión de hacer de mi hobbie y mi día a día mi profesión. Desde que desarrollo las pequeñas victorias le dan sentido (y mucha alegría) al trabajo duro del día a día, por ello, ¿cómo decir que no es mi profesión ideal?
-            </p>
-            <img src="#">
+            <div class="studies-fsdiv">
+                <img src="img/thebridge.png" class="studies-fsimg">
+                <p class="studies-fsp">Desde pequeña siempre los ordenadores habían sido mi hobbie y después de cursar Sociología y Recursos Humanos, decidí que era el momento de meterme en ese mundo. ¿Por qué no? Siempre me gustó hacer páginas webs de blogs, imágenes, gifs
+                    y me ilusionaba enseñarlos. Tomé la decisión de hacer de mi hobbie y mi día a día mi profesión. <br><br> Desde que desarrollo las pequeñas victorias le dan sentido (y mucha alegría) al trabajo duro del día a día, por ello, ¿cómo decir
+                    que no es mi profesión ideal?
+                </p>
+            </div>
             <h3>Sociología en La Universidad Complutense de Madrid</h3>
-            <p>Antes de ser desarrolladora y trabajar en Recursos Humanos, estudié la carrera de Sociología. ¿Qué mejor carrera que aquella que me dejaba aprender todo lo que me gustaba?
-            En la carrera aprendí de todo: psicología, estadística, historia, economía, urbanismo, género... En definitiva, sociología. Fueron cuatro años en los que además conocí a una gran cantidad de gente, lo que determinaría mi siguiente elección: Recursos Humanos.
-            </p>
-            <img src="#">
+            <div class="studies-sdiv">
+                <p class="studies-sp">Antes de ser desarrolladora y trabajar en Recursos Humanos, estudié la carrera de Sociología. ¿Qué mejor carrera que aquella que me dejaba aprender todo lo que me gustaba? En la carrera aprendí de todo: psicología, estadística, historia,
+                    economía, urbanismo, género...<br><br>En definitiva, sociología. Fueron cuatro años en los que además conocí a una gran cantidad de gente, lo que determinaría mi siguiente elección: Recursos Humanos.
+                </p>
+                <img src="img/ucm.png" class="studies-simg">
+            </div>
             <h3>Recursos Humanos en el Colegio Profesional de Politólogos y Sociólogos, Deloitte y Ayesa</h3>
-            <p>Decidí estudiar Recursos Humanos, de nuevo reunía distintas áreas que me interesaban. Allí desarrollé numerosos proyectos en grupo, lo que me permitó trabajar en Deloitte, para el departamento de Selección y Formación y en Deloitte para el Departamento de Selección.
-            Mi experiencia fue muy enriquecedora ya que aprendí lo que era el trabajo del día a día, la presión, la búsqueda 
-            </p>
-            <img src="#">
+            <div class="studies-rrhhdiv">
+                <img src="img/hr.png" class="studies-rrhhimg">
+                <p class="studies-rrhhp">Decidí estudiar Recursos Humanos, de nuevo reunía distintas áreas que me interesaban.<br><br>Allí desarrollé numerosos proyectos en grupo, lo que me permitó trabajar en Deloitte, para el departamento de Selección y Formación y en Ayesa
+                    para el Departamento de Selección.
+                </p>
+            </div>
         </section>
         <section id="knowledge">
             <h2>CONOCIMIENTOS</h2>
-            <img src="img/construyendo.jpeg" alt="imagen con el texto: 'en construcción'">
-            <p>Actualmente sigo formandome en los distintos lenguajes y tecnologías que implican esta profesión. Algunos ejemplos son:
-                <ul> 
-                    <li>HTML5 Y CSS3</li>
-                <li>JAVASCRIPT (ECMASCRIPT6)</li>
-                <li>REACT.JS</li>
-                <li>NODE.JS</li>
-                <li>...</li>
-            </p>
-            Aquí te dejo el enlace para que puedas ver en git los proyectos que he desarrollado: 
-            <img src="img/git.png" alt="icono de git" width="20px" height="30px"><a href="https://github.com/silvialcastilla">Enlace a mis repositorios</a>
+            <div class="knowledge-div">
+                <img src="img/construyendo.jpeg" class="knowledge-img" alt="imagen con el texto: 'en construcción'">
+                <p class="knowledge-p">Actualmente sigo formandome en los distintos lenguajes y tecnologías que implican esta profesión. Algunos ejemplos son:
+                    <ul>
+                        <li>HTML5 Y CSS3</li>
+                        <li>JAVASCRIPT (ECMASCRIPT6)</li>
+                        <li>REACT.JS</li>
+                        <li>NODE.JS</li>
+                        <li>...</li>
+                </p>
+            </div>
+            Aquí te dejo el enlace para que puedas ver en git los proyectos que he desarrollado:<br><br>
+            <a href="https://github.com/silvialcastilla" class="bio-repos"><b>Pulsa para ver mis repositorios</b></a>
 
         </section>
         <section id="interests">
-            <h2>INTERESES</h2>
-            <p>Y por último, pero no menos importante... ¡Mis intereses y hobbies!
-            Podría centrarme en los intereses típicos como la lectura, viajar, aprender nuevos idiomas... Y es verdad que me gustan, porque en sociología no hacía más que leer, el año pasado visite distintos sitios y sigo aprendiendo alemán.
-            Pero fuera de lo típico, lo que me apasionan son las manualidades, las series y los juegos.
-            </p>
-            <p>
-            Me encanta pintar cuadros, láminas, mandalas, dibujos... También hacer cuadros con distintos materiales y puzzles grandes, pequeños, con colores, cuadros para pintar... <br>
-            De series, cualquiera que me mantenga intrigada... Pero sobre todo, las que no te enteras de la mitad hasta el final de temporada (o el final de la serie), así como Westworld, Como Defender a un Asesino, Mr. Robot... Ahora imaginar, ¿cuáles son mis juegos favoritos?
-            ¡Sherlock Homes por supuesto! Me encanta investigar, ser observadora y buscar pistas. Aunque bueno, ¿a quién no le gusta un buen juego de modo historia, walking simulator e incluso un indie? A mi, seguro.            
-            </p>
+            <h2>INTERESES<span>&#160;</span></h2>
+            <p>Y por último, pero no menos importante... ¡Mis intereses y hobbies!</p> Me encanta pintar cuadros, hacer puzzles, ver series intrigantes, jugar a juegos de investigación, ir a festivales, conocer nuevos sitios y a nueva gente...</p>
         </section>
         <article>
-        <p>Y bueno... Esta es mi historia. Todo lo que me hace ser quien soy. Si te interesa contactar conmigo, en la pestaña 'Contáctame' encontrarás mis datos.</p>
+            <p>Y bueno... Esta es mi historia. Todo lo que me hace ser quien soy. Si te interesa contactar conmigo, en la pestaña <b>'Contáctame'</b> encontrarás mis datos.</p>
+            <p class="last-phrase">Ha sido un placer.</p>
+            <img src="img/reverencia.gif" class="footer" alt="imagen de persona haciendo una reverencia">
         </article>
-        <footer>
-            Ha sido un placer.
-            <img src="img/reverencia.gif" alt="imagen de persona haciendo una reverencia">
-        </footer>
     </main>
 </body>
 

@@ -1,65 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Contáctame</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html"><b>Mi página personal</b></a></li>
-                <li><a href="biografia.html"><b>¿Quién soy?</b></a></li>
-                <li><a href="contacto.html"><b>Contáctame</b></a></li>
+        <nav class="bio-nav-bar">
+            <ul class="bio-nav-bar-links">
+                <li><a href="index.html" class="bio-nav"><b>Mi página personal</b></a></li>
+                <li><a href="biografia.html" class="bio-nav"><b>¿Quién soy?</b></a></li>
+                <li><a href="contacto.html" class="bio-nav"><b>Contáctame</b></a></li>
             </ul>
-            </nav>
     </header>
-    <main>
+    <main class="contact-body">
         <form action="#" method="get">
-            <fieldset>
-                <legend><b>Si quieres contactarme puedes rellenar este pequeño formulario</b></legend>
-                    <table>
-                        <tr>
-                            <td><label for="nombre"> Tu nombre o apodo: </label></td>
-                            <td><input type="text" id="nombre" name="user_name" tabindex="1" placeholder="Dime tu nombre"></td>
-                        </tr>
-                        <tr>
-                        </tr>
-                        <tr>
-                            <td><label for="correo">¿Cuál es tu email para que pueda contactarte?</label></td>
-                            <td><input type="email" id="correo" name="correo" tabindex="2"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="telefono">Puedes darme tu número de teléfono para que te contacte.</label></td>
-                            <td><input type="tel" id="telefono" name="telefono" tabindex="3"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="motivo">¿Cuál es el motivo por el que buscas contactar conmigo?</label></td>
-                            <td><select id="motivo" tabindex="4">
+            <legend><b>Si quieres contactarme puedes rellenar este pequeño formulario</b></legend><br>
+            <div class="form-flex">
+                <label for="nombre"> Tu nombre o apodo: </label>
+                <input type="text" id="nombre" name="user_name" tabindex="1" placeholder="Dime tu nombre">
+            </div>
+            <div class="form-flex">
+                <label for="correo">¿Cuál es tu email para que pueda contactarte?</label>
+                <input type="email" id="correo" name="correo" tabindex="2">
+            </div>
+            <div class="form-flex">
+                <label for="telefono">Puedes darme tu número de teléfono para que te contacte.</label>
+                <input type="tel" id="telefono" name="telefono" tabindex="3">
+            </div>
+            <div class="form-flex">
+                <label for="motivo">¿Cuál es el motivo por el que buscas contactar conmigo?</label>
+                <select id="motivo" tabindex="4">
                                 <label for="motivo"></label>
                                 <option value="">-- Seleccionalo --</option>
-                                <option value="trabajo">Ofrecerme trabajo</option>
+                                <option value="divabajo">Ofrecerme trabajo</option>
                                 <option value="proyecto">Trabajar en un proyecto</option>
                                 <option value="academicos">Interéses academicos</option>
                                 <option value="personales">Interéses personales</option>
-                                <option value="otros">Otros</option>
+                                <option value="odivos">Otros</option>
                             </select></td>
-                        </tr>  
-                        <tr>
-                            <td><label for="interes">¿Te ha parecido interesante la información de mi página?</label></td>
-                            <td><input type="radio" id="interes" name="interes" value="si"tabindex="5"> Sí
-                            <input type="radio" id="interes" name="interes" value="no" tabindex="6"> No
-                            <input type="radio" id="interes" name="interes" value="igual"tabindex="7"> Me da igual</td>
-                        </tr>
-                        <tr>
-                            <td><label for="sugerencia">Hazme alguna sugerencia</label></td>
-                            <td><textarea id="sugerencia" tabindex="8" rows="4" cols="50" placeholder="Escribe tu sugerencia"></textarea></td>
-                        </tr>             
-                    </table>
-                </fieldset><br><br>
-                <button type="submit">Enviar</button>
+            </div>
+            <div class="form-flex">
+                <label for="interes">¿Te ha parecido interesante la información de mi página?</label>
+                <div class="div-input">
+                    <input type="radio" id="interes" name="interes" value="si" tabindex="5"> Sí
+                    <input type="radio" id="interes" name="interes" value="no" tabindex="6"> No
+                    <input type="radio" id="interes" name="interes" value="igual" tabindex="7"> Me da igual
+                </div>
+            </div><br>
+            <div class="form-flex">
+                <label for="sugerencia">Hazme alguna sugerencia</label>
+                <textarea id="sugerencia" tabindex="8" rows="4" cols="50" placeholder="Escribe tu sugerencia"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
         </form>
     </main>
 </body>
+
 </html>
